@@ -1,7 +1,7 @@
 # Pou-JS
 Uma versâo do game pou, desenvolvida com JAVA SCRIPT PURO, o usuario terar que cuidar do pou, pou é o personagem do game,  Utilizando o HTML eu usei para criar os menus e estagios do game, com o css eu dei cor e estilo para o personagem e estagios e icones do game, Utilizando o java Script  para fazer a interaçâo do game eu utilizei em maior parte o método setTimeout() que permitiu desenvolver a logica para as trocas de personagems em tempo real, O desafio emfrentado nesse projeto foi com que nâo houvesse que uma animaçâo se encontrasse com a outra, fazendo com oque bugasse os personagems que o usuario execulta na tela. 
 
-LINK PARA JOGAR:
+LINK PARA JOGAR: https://glaudson-nunes.github.io/Pou-JS/
 
 ![inicial1](https://user-images.githubusercontent.com/93484378/164938195-1044ebfc-be72-4efd-ad53-6a20007857b6.gif)
 
