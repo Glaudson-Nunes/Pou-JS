@@ -1,0 +1,720 @@
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    background-color:rgba(204, 204, 204, 0.082);
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+ul{
+
+    list-style: none;
+}
+
+#cozinha{
+
+    position: relative;
+    width: 800px;
+    height: 500px;
+    margin: 0 auto;
+    text-align: center;
+    display:block;
+    border-radius: 5px;
+    outline: none;
+}
+
+#banheiro{
+
+    width: 800px;
+    height: 500px;
+    margin: 0 auto;
+    text-align: center;
+    display: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+#sala_de_jogos{
+
+    width: 800px;
+    height: 500px;
+    margin: 0 auto;
+    text-align: center;
+    display: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+#quarto{
+
+    position: relative;
+    width: 800px;
+    height: 500px;
+    margin: 0 auto;
+    text-align: center;
+    display: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+#laboratorio{
+
+    position: relative;
+    width: 800px;
+    height: 500px;
+    margin: 0 auto;
+    text-align: center;
+    display: none;
+    border-radius: 5px;
+    outline: none;
+}
+#prateleira{
+
+    position: absolute;
+    top:0;
+    width: 800px;
+    height: 500px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    display: none;
+
+    border-radius: 5px;
+    outline: none;
+}
+
+#Instrucoes{
+
+    width: 800px;
+    height: 500px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.588);
+    position: absolute;
+    top:0;
+    letter-spacing: 1px;
+    display: block;
+    border-radius: 5px;
+    outline: none;
+}
+
+#luzApagada{
+
+    position: absolute;
+    top:0;
+    width: 800px;
+    height: 600px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.644);
+    display: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+#luzApagada2{
+
+    position: absolute;
+    top:0;
+    width: 800px;
+    height: 600px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.644);
+    display: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+#armario{
+    position: absolute;
+    top:0;
+    width: 800px;
+    height: 500px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 10px;
+    display: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+.escolherRoupas{
+
+    margin-top: 100px;
+}
+.removerRoupas{
+
+    margin-top: 40px;
+    font-size: 1.8em;
+    font-weight: bolder;
+}
+
+#loja_total{
+
+    position: absolute;
+    top:0;
+    width: 800px;
+    height: 500px;
+    margin: 0 auto;
+    background-color:rgb(255, 255, 255);
+    display: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+#loja_total2{
+
+    position: absolute;
+    top:0;
+    width: 800px;
+    height: 500px;
+    margin: 0 auto;
+    background-color:rgb(255, 255, 255);
+    display: none;
+
+    border-radius: 5px;
+    outline: none;
+}
+
+.lojaa{
+
+    margin-top: 70px;
+    letter-spacing: 3px;
+    padding: 5px;
+}
+
+#comidas{
+
+    position: absolute;
+    top:0;
+    width: 800px;
+    height: 500px;
+    margin: 0 auto;
+    background-color:rgb(255, 255, 255); 
+    display: none;
+    padding: 10px;
+    display:none;
+    overflow-x: scroll;
+
+    border-radius: 5px;
+    outline: none;
+}
+
+#comidas2{
+
+    position: absolute;
+    top:0;
+    width: 800px;
+    height: 500px;
+    margin: 0 auto;
+    background-color:rgb(255, 255, 255); 
+    display: none;
+    padding: 10px;
+    display:none;
+    overflow-x: scroll;
+    border-radius: 5px;
+    outline: none;
+}
+
+#remedios{
+
+    position: absolute;
+    top:0;
+    width: 800px;
+    height: 500px;
+    margin: 0 auto;
+    background-color:rgb(255, 255, 255); 
+    padding: 10px;
+    display: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+#remedios2{
+
+    position: absolute;
+    top:0;
+    width: 800px;
+    height: 500px;
+    margin: 0 auto;
+    background-color:rgb(255, 255, 255); 
+    padding: 10px;
+    display: none;
+    border-radius: 5px;
+    outline: none;
+
+}
+
+#geladeira{
+
+    position: absolute;
+    top:0;
+    width: 800px;
+    height: 500px;
+    margin: 0 auto;
+    background-color:rgb(255, 255, 255); 
+    padding: 20px;
+    display: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+.porcoes ul{
+
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    
+}
+
+.porcoes{
+
+ margin-top: 40px;
+    
+}
+
+#lista_comida{
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10px;
+   
+}
+
+.alimentos{
+
+    margin-top: 20px;
+}
+
+.alimentos ul{
+
+    display: flex;
+    flex-direction:column;
+    gap: 5px;
+}
+
+.alimentos li{
+
+    cursor: pointer;
+}
+
+.produtos{
+
+    margin-top: 60px;
+}
+
+#lista_produtos{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+
+.texto1{
+
+    margin-top:150px;
+    color: rgb(35, 236, 79);
+}
+
+.texto2{
+
+    margin-top: 80px;
+    color: rgb(35, 236, 79);
+    padding: 10px;
+}
+
+.texto1 p, .texto2 p{
+
+    padding: 10px;
+}
+.ok:active{
+
+    color: rgb(109, 9, 9);
+}
+.ok{
+
+    color: rgba(17, 21, 250, 0.948);
+    font-weight: normal;
+    font-size: 1.5em;
+    cursor: pointer;
+    background-color: rgba(204, 204, 204, 0.762);
+    width: 60px;
+    border-radius: 3px;
+    margin:  0 auto;
+}
+
+.js{
+    color: yellow;
+}
+
+#lista_inicial{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 70px;
+    background-color: #df585898;
+    width: 700px;
+    height: 55px;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+#lista_inicial li{
+
+    border: 2px solid black;
+    width: 60px;
+    height: 40px;
+    padding: 4px;
+}
+
+#lista_cozinha{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    padding-top: 30px;
+}
+
+.cozinha{
+
+    font-size: 1.5em;
+    color: #ff0000;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+
+.sala_jogos{
+
+    font-size: 1.5em;
+    color: #1a6005;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+
+.banheiro{
+
+    font-size: 1.5em;
+    color: #051660;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+
+.quarto{
+
+    font-size: 1.5em;
+    color: #604c05;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+
+.seta_esquerda,.mais ,.seta_direita,.geladeira,.loja,.batata,.chuveiro,.sabonete,.bola,.armario,.abajur,.abajur2,.san,.reme,.x,.maiss,.xx,.setaEs,.xxx,.voltarRe,.fecharRe,.esq,.ex,.pointer{
+
+    cursor: pointer;
+    
+}
+
+
+#lista_end{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;   
+ 
+    
+}   
+
+.icons_end{
+
+    margin-top: 100px;
+}
+
+.animacao_pou{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.saude,.energia,.diversao{
+
+    background-color: rgb(0, 255, 38);
+    text-align: center;
+}
+.cxfrango{
+
+    background-color: red;
+    text-align: center;
+}
+
+.mais{
+
+    font-size: 2em;
+    color: rgb(14, 211, 14);
+    font-weight: bolder;
+}
+#animacaoComsono1,#animacaoComsono2,#animacaoComsono3,#animacaoComsono4,#animacaoComsono5,#pouVermelha1,#pouAzul1,#pouAmarela1,#pouLaranja1,#pouVermelha4,#pouAzul4,#pouLaranja4,#pouAmarela4,#pouVermelha2,#pouAzul2,#pouLaranja2,#pouAmarela2{
+    display: none;
+}
+#PouChuverio,#PouEnsaboado,#PouSeEnsabuando,#pouBrincandoLimpo,#pouDormindo,#pouIndoDormi,#AcenderlUZ,#btChuverio,#btSabonete2,#pouVermelha3,#pouAzul3,#pouLaranja3,#pouAmarela3,#pouVermelha5,#pouAzul5,#pouLaranja5,#pouAmarela5,#setaEsquerda3,#setaDireita3,#btGela2,#btLoja3,#pouSeEnsaboandoANIMA2,#PouEnsabuadoANIMA2,#PouChuverioANIMA2,#btChuverio2ANIMA2,#btSabonete2ANIMA2,#bt2ChuveiroANIMA2,#btChuveiroANIMA2,#bt2SaboneteANIMA2{
+
+    display: none;
+}
+
+#poutriste1,#poutriste2,#poutriste3,#poutriste4,#poutriste5,#passarCozinhaVANIMA2,#pouComendobataANIMA2,#bt2Gela2ANIMA2,#pouComendoBaiconANIMA2,#btAbrirPrate,#pouTomandoEnerANIMA2,#pouBrincandotristeANIMA2,#pouBrincandptriste2ANIMA2,#pouTomandopocaoSaudeANIMA2{
+
+    display: none;
+}
+.escolherRoupas ul{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    cursor: pointer;
+}
+
+#btChuverioOFF,#btSaboneteOFF,#btBola2,#btBola4,#btBola3,#btBola5,#btDesligarLuz2,#pou1,#pou2,#pou3,#pou4,#baicon,#batata,#batata2,#baicon2,#setaEsquerda2,#setaDireita2,#comendobata,#comendodoBaicon,#btAbrirComidasANIMA2,#seta2EsquerdaANIMA2,#seta2DireitaANIMA2{
+
+    display: none;
+}
+
+#gelaLista{
+
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 40px;
+    flex-direction: row;
+    margin-top: 80px;
+}
+
+#btGela2ANIMA2,#setaEsquerdaANIMA2,#batataANIMA2,#baiconANIMA2,#setaDireitaANIMA2,#btLojaANIMA2,#btChuverioANIMA2,#btSaboneteANIMA2,#btBolaANIMA2,#btAbrirArmaANIMA2,#btDesligarLuzANIMA2,#AcenderlUZANIMA2,#btAbrirPrateANIMA2,#btLoja2ANIMA2{
+
+    display: none;
+}
+
+
+#btGelaANIMATION,#setaDireitaANIMATION,#btLojaANIMATION,#setaEsquerdaANIMATION,#btChuverioANIMATION,#btSaboneteANIMATION,#btBolaANIMATION,#btAbrirArmaANIMATION,#btDesligarLuzANIMATION,#btAbrirPrateANIMATION,#btLoja2ANIMATION{
+
+    display: none;
+}
+
+#btChuverioANIMATION2,#btSaboneteANIMATION2,#btAbrirPrateANIMATION2,#AddENERGETICOAnimation,#AddSAUDEAnimation,#btGelaANIMATION2,#pouTomandoENERANIMATION,#AddENERGETICOAnimationOFF,#AddSAUDEAnimationOFF,#btBolaANIMATION2,#btBolaANIMATION2FELIZ,#batataANIMATION,#baiconANIMATION,#batataAddANIMATION,#baiconAddANIMATION,#btAbrirArmaANIMATIONOFF,#btDesligarLuzANIMATIONOFF,#AcenderlUZANIMATION,#pouDoriminSujoANIMATION,#luzApagada2,#pouCocegas{
+
+    display: none;
+}
+
+
+
+/* VERSAO MOBILE */
+@media (min-width: 370px){
+
+    #cozinha,#Instrucoes,#banheiro,#sala_de_jogos,#quarto,#laboratorio,#prateleira,#luzApagada,#luzApagada2,#armario,#loja_total,#loja_total2,#comidas,#comidas2,#remedios,#remedios2,#geladeira,#lista_inicial{
+
+        width: 100%;
+        height: 100%;
+    }
+
+    .texto1,.texto2{
+
+        font-size: 2.5em;
+        text-align: center;
+        margin-top: 250px;
+    }
+
+    #lista_inicial{
+
+        height: 110px;
+        text-align: center;
+    }
+
+    #lista_inicial img{
+
+        width: 60px;
+    }
+
+    #lista_inicial li{
+
+        width: 120px;
+        height: 90px;
+    }
+
+    #lista_end img{
+
+        width: 100px;
+        margin-top: 500px;
+
+    }
+
+    #lista_end{
+
+        font-size: 2em;
+    }
+
+    .animacao_pou{
+
+        margin-top: 280px;
+    }
+
+    .animacao_pou img{
+
+        width: 300px;
+    }
+
+    .estagio_cozinha img{ 
+
+        width: 70px;
+    }
+
+    .cozinha,.banheiro,.quarto,.sala_jogos{
+
+        font-size: 2.8em;
+    }
+
+    #geladeira img,#comidas img{
+
+        width: 90px;
+    }
+
+    #geladeira,#comidas{
+
+        font-size: 2em;
+    }
+
+    .ok{
+
+        width: 120px;
+    }
+
+    .porcoes img{
+
+        width: 100px;
+
+    }
+
+    #lista_comida img{
+        width: 90px;
+
+    }
+
+    .Treme,.maiss{
+
+        font-size: 2.8em;
+    }
+
+    .escolherRoupas img{
+
+        width: 200px;
+    }
+
+}
+
+
+
+@media (min-width: 1280px){
+
+    #cozinha,#Instrucoes,#banheiro,#sala_de_jogos,#quarto,#laboratorio,#prateleira,#luzApagada,#luzApagada2,#armario,#loja_total,#loja_total2,#comidas,#comidas2,#remedios,#remedios2,#geladeira,#lista_inicial{
+
+        width:800px;
+    
+    }
+
+    #lista_inicial{
+
+        height: 60px;
+    }
+
+    #lista_inicial img{
+
+        width: 30px;
+    }
+
+    #lista_inicial li{
+
+        width: 80px;
+        height: 50px;
+    }
+
+    #lista_end img{
+
+        width: 50px;
+    }
+
+    #lista_end{
+
+        margin-top: -400px;
+    }
+
+    .texto1,.texto2{
+
+        font-size: 1em;
+        text-align: center;
+        margin-top: 100px;
+       
+    }
+
+    .animacao_pou{
+
+        margin-top: -8px;
+    }
+
+    .animacao_pou img{
+
+        width: 230px;
+    }
+
+    .estagio_cozinha img{ 
+
+        width: 40px;
+    }
+
+    .cozinha,.banheiro,.quarto,.sala_jogos{
+
+        font-size: 1.4em;
+    }
+
+    #geladeira img,#comidas img{
+
+        width: 30px;
+    }
+
+    #geladeira,#comidas{
+
+        font-size: 1em;
+    }
+
+    .ok{
+
+        width: 80px;
+    }
+
+    #lista_end{
+
+        font-size: 1em;
+    }
+
+    .escolherRoupas img{
+
+        width: 100px;
+    }
+
+    #btVarma img{
+
+        width: 20px;
+    }
+   
+}

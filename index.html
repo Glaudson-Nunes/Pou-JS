@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+
+<html lang="PT-BR">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Gwendolyn:wght@700&family=MuseoModerno:wght@300&family=Oswald:wght@500&family=Roboto:wght@100;300&display=swap"
+        rel="stylesheet">
+    <meta charset="utf-8">
+    <title>Pou js</title>
+    <link rel="stylesheet" type="text/css" href="style/estilo.css">
+</head>
+
+<body>
+
+    <div class = "audios">
+
+        <audio id = "aduio1Comendo" src="audios/efeitoSonoComendo.mp3"></audio>
+        <audio id = "audio2Transicao" src="audios/EfeitoSonoroTransiçâo.mp3"></audio>
+        <audio id = "ok2" src="audios/ok.mp3"></audio>
+        <audio id = "audio3Bola" src="audios/efeitoSonoroBola.mp3"></audio>
+
+    </div>
+
+    <div class="icos_inicial">
+
+        <ul id="lista_inicial">
+
+            <li id = "frango" class="cxfrango"> <img src="img/icons/coxa-de-frango.png" width="30px"> </li>
+            <li id = "saude" class="saude"> <img src="img/icons/farmacia.png" width="30px"> </li>
+            <li id = "energia" class="energia"> <img src="img/icons/energia-eletrica-relampago.png" width="30px"> </li>
+            <li id = "diversao" class="diversao"> <img src="img/icons/diversao.png" width="30px"> </li>
+
+        </ul>
+
+    </div>
+
+    <div id="cozinha">
+
+
+        <div class="estagio_cozinha">
+
+            <ul id="lista_cozinha">
+
+                <li id="passarLaboratorio1" class="seta_esquerda"> <img src="img/icons/seta esquerda.png" width="30px"> </li>
+                <li class="cozinha">Cozinha</li>
+                <li id="passarBanheiro" class="seta_direita"> <img src="img/icons/seta direita.png " width="30px"> </li>
+
+            </ul>
+
+        </div>
+
+        <div class="animacao_pou">
+
+            <img id="animacaoInicial1" src="animaçoes/pouNormal.gif.gif" width="190px">
+            <img id="animacaoComsono1" src="animaçoes/pouSujo.gif.gif" width="250px">
+            <img id = "poutriste1" src="animaçoes/pouLIMPOTRISTE.gif.gif" width="250px">
+           
+
+            <img id = "pouVermelha1" src = "animaçoes/pouBlusaVermelha.gif.gif" width="220px">
+            <img id = "pouAzul1" src = "animaçoes/pouBlusaAzul.gif.gif" width="220px">
+            <img id = "pouLaranja1" src = "animaçoes/pouBlusaLaranja.gif.gif" width="220px">
+            <img id = "pouAmarela1" src = "animaçoes/pouBlusaAmarela.gif.gif" width="220px">
+
+            <img id = "comendobata" src="animaçoes/pouComendoBatataLimpo.gif.gif" width="250px">
+            <img id = "comendodoBaicon" src="animaçoes/pouComendoBaconLimpo.gif.gif" width="250px">
+            <img id = "pouComendobataANIMA2" src="animaçoes/pouTRISTECOMENDObatata.gif.gif" width="250px">
+            <img id = "pouComendoBaiconANIMA2" src="animaçoes/pouTRISTECOMENDObaicon.gif.gif" width="250px">
+           
+        </div>
+
+        <div class="icons_end">
+
+            <ul id="lista_end">
+
+                <li id="btGela" class="geladeira"> <img src="img/icons/geladeira.png" width="55px"> <p>Geladeira</p> </li>
+                <li id="btGela2" class="geladeira"> <img src="img/icons/geladeira.png" width="55px"> <p>Geladeira</p> </li>
+                <li id="btGelaANIMATION" class="geladeira"> <img src="img/icons/geladeira.png" width="55px"> <p>Geladeira</p> </li>
+                <li id="btGelaANIMATION2" class="geladeira"> <img src="img/icons/geladeira.png" width="55px"> <p>Geladeira</p> </li>
+
+                <li id = "setaEsquerda" class="seta_esquerda"> <img src="img/icons/seta esquerda.png" width="50px"> </li>
+                <li id = "setaEsquerdaANIMATION" class="seta_esquerda"> <img src="img/icons/seta esquerda.png" width="50px"> </li>
+
+                <li id = "setaEsquerda2" class="seta_esquerda"> <img src="img/icons/seta esquerda.png" width="50px"> </li>
+                <li id = "setaEsquerda3" class="seta_esquerda"> <img src="img/icons/seta esquerda.png" width="50px"> </li>
+
+                <li id = "batata" class="batata"> <img src="img/icons/batatas-fritas.png" width="55px"> <p>Batatas-Fritas</p></li>
+                <li id = "baicon" class="batata"> <img src="img/icons/bacon.png" width="55px"> <p>Baicon</p></li>   
+                
+                <li id = "batataAddANIMATION" class="batata"> <img src="img/icons/batatas-fritas.png" width="55px"> <p>Batatas-Fritas</p></li>
+                <li id = "baiconAddANIMATION" class="batata"> <img src="img/icons/bacon.png" width="55px"> <p>Baicon</p></li>   
+
+                <li id = "setaDireita" class="seta_direita"> <img src="img/icons/seta direita.png " width="50px"> </li>
+                <li id = "setaDireitaANIMATION" class="seta_direita"> <img src="img/icons/seta direita.png " width="50px"> </li>
+
+                <li id = "setaDireita2" class="seta_direita"> <img src="img/icons/seta direita.png " width="50px"> </li>
+                <li id = "setaDireita3" class="seta_direita"> <img src="img/icons/seta direita.png " width="50px"> </li>
+
+                <li id="btLoja" class="loja"> <img src="img/icons/lojas.png" width="55px"> <p>Loja</p> </li>
+                <li id="btLoja3" class="loja"> <img src="img/icons/lojas.png" width="55px"> <p>Loja</p> </li>
+                <li id="btLojaANIMATION" class="loja"> <img src="img/icons/lojas.png" width="55px"> <p>Loja</p> </li>
+          
+            </ul>
+
+        </div>
+
+        <div id="Instrucoes">
+
+            <div class="texto1">
+
+                <h2>Bem-vindo ao POU <span class="js">JS</span></h2>
+
+                <p>Pou é seu bichinho de estimaçâo<br>alienígena que ADORA comer e brincar!<br></p>
+
+            </div>
+
+            <div class="texto2">
+
+                <p>Arraste comida para a boca do pou para alimentá-lo!<br>Tente agora!</p>
+                
+
+                <h3 id = "ok"  class="ok">OK</h3>
+
+            </div>
+
+
+        </div>
+
+        <div id="loja_total">
+
+            <h2 class="lojaa">Loja</h2>
+
+            <img id="btfecharLoja" class="x" src="img/icons/marca-x.png" width="30px">
+
+            <div class="produtos">
+
+                <ul id="lista_produtos">
+
+                    <li id="btabriMenuComidas" class="san"> <img src="img/icons/sanduiche.png" width="50px">
+                        <p>Comida</p>
+                    </li>
+                    <li id="abrirMenuRemedios" class="reme"> <img src="img/icons/remedio.png" width="50px">
+                        <p>Remédios</p>
+                    </li>
+
+                </ul>
+
+            </div>
+
+            <div id="comidas">
+
+                <h2>Comidas</h2>
+
+                <ul id="lista_comida">
+
+                    <li id="btvoltarLoja1" class="setaEs"> <img src="img/icons/seta esquerda.png" width="30px"> </li>
+
+                    <li id="btfecharComidass" class="xxx"> <img src="img/icons/marca-x.png" width="30px"> </li>
+
+                </ul>
+
+                <div class="alimentos">
+
+                    <ul>
+
+                        <li> <img src="img/icons/batatas-fritas.png" width="50px">
+                            <p>Batatas-Fritas</p>
+                            <p id = "mais1" class="mais">+</p>
+                        </li>
+
+
+                        <li> <img src="img/icons/bacon.png" width="50px">
+                            <p>Baicon</p>
+                            <p id = "mais2" class="mais">+</p>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+            <div id="remedios">
+
+                <h2>Remédios</h2>
+
+                <ul id="lista_comida">
+
+                    <li id="btvoltarLoja2" class="voltarRe"> <img src="img/icons/seta esquerda.png" width="30px"> </li>
+
+                    <li id="btFecharRemedios" class="fecharRe"> <img src="img/icons/marca-x.png" width="30px"> </li>
+
+                </ul>
+
+                <div class="porcoes">
+
+                    <ul>
+
+                       
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div id="geladeira">
+
+            <h2>Geladeira</h2>
+
+            <img id="btAbrirComidas" class="maiss" src="img/icons/mais.png" width="40px">
+            <img id="btAbrirComidasANIMA2" class="maiss" src="img/icons/mais.png" width="40px">
+            <img id="btfecharGeladeira" class="xx" src="img/icons/marca-x.png" width="40px">
+
+            <ul id = "gelaLista">
+
+                <li id = "batata2" class="batata"> <img src="img/icons/batatas-fritas.png" width="35px"> <p>Batatas-Fritas</p></li>
+                <li id = "baicon2" class="batata"> <img src="img/icons/bacon.png" width="35px"> <p>Baicon</p></li>
+
+                <li id = "batataANIMATION" class="batata"> <img src="img/icons/batatas-fritas.png" width="35px"> <p>Batatas-Fritas</p></li>
+                <li id = "baiconANIMATION" class="batata"> <img src="img/icons/bacon.png" width="35px"> <p>Baicon</p></li>
+
+              
+
+            </ul>
+
+        </div>
+
+    </div>
+
+    <div id="banheiro">
+
+        <div class="estagio_cozinha">
+
+            <ul id="lista_cozinha">
+                <li id="passarCozinha" class="seta_esquerda"> <img src="img/icons/seta esquerda.png" width="30px"> </li>
+                <li class="banheiro">Banheiro</li>
+                <li id="passarSalaJogos" class="seta_direita"> <img src="img/icons/seta direita.png " width="30px"></li>
+
+            </ul>
+
+        </div>
+
+        <div class="animacao_pou">
+
+            <img id="animacaoInicial2" src="animaçoes/pouNormal.gif.gif" width="200px">
+            <img id="PouChuverio" src="animaçoes/pouNoChuverioLimpo.gif.gif" width="250px">
+            <img id="PouEnsaboado" src="animaçoes/pouEnsaboadoLimpo.gif.gif" width="250px">
+            <img id="PouSeEnsabuando" src="animaçoes/pouSeEnsabuandoLimpo.gif.gif" width="260px">
+            <img id="animacaoComsono2" src="animaçoes/pouSujo.gif.gif" width="250px">
+            <img id = "pouSeEnsaboandoANIMA2" src="animaçoes/pouSeEnsabuandoSUJO.gif.gif" width="250px">
+            <img id = "PouEnsabuadoANIMA2" src="animaçoes/pouEnsabuadoSUJOgif.gif" width="250px">
+            <img id = "PouChuverioANIMA2" src="animaçoes/pouChuveiroSUJO.gif.gif" width="250px">
+            <img id = "poutriste2" src="animaçoes/pouLIMPOTRISTE.gif.gif" width="250px">
+
+
+            <img id = "pouVermelha2" src = "animaçoes/pouBlusaVermelha.gif.gif" width="220px">
+            <img id = "pouAzul2" src = "animaçoes/pouBlusaAzul.gif.gif" width="220px">
+            <img id = "pouLaranja2" src = "animaçoes/pouBlusaLaranja.gif.gif" width="220px">
+            <img id = "pouAmarela2" src = "animaçoes/pouBlusaAmarela.gif.gif" width="220px">
+
+        </div>
+
+        <div class="icons_end">
+
+            <ul id="lista_end">
+
+                <li id="btChuverio" class="chuveiro"> <img src="img/icons/banho.png" width="55px">  <p>Chuveiro</p> </li>
+                <li id="btChuverio2" class="chuveiro"> <img src="img/icons/banho.png" width="55px">  <p>Chuveiro</p> </li>
+
+                <li id="btChuverioANIMATION" class="chuveiro"> <img src="img/icons/banho.png" width="55px">  <p>Chuveiro</p> </li>
+                <li id="btChuverioANIMATION2" class="chuveiro"> <img src="img/icons/banho.png" width="55px">  <p>Chuveiro</p> </li>
+
+                <li id="btSabonete" class="sabonete"> <img src="img/icons/sabonete.png" width="55px"> <p>Sabonete</p></li>
+                <li id="btSabonete2" class="sabonete"> <img src="img/icons/sabonete.png" width="55px"><p>Sabonete</p></li>
+
+                <li id="btSaboneteANIMATION" class="sabonete"> <img src="img/icons/sabonete.png" width="55px"><p>Sabonete</p></li>
+                <li id="btSaboneteANIMATION2" class="sabonete"> <img src="img/icons/sabonete.png" width="55px"><p>Sabonete</p></li>
+
+
+                <li id="btChuverioOFF" class="chuveiro"> <img src="img/icons/banho.png" width="55px">  <p>Chuveiro</p> </li>
+                <li id="btSaboneteOFF" class="sabonete"> <img src="img/icons/sabonete.png" width="55px"> <p>Sabonete</p></li>
+               
+
+            </ul>
+
+        </div>
+
+    </div>
+
+    <div id="sala_de_jogos">
+
+        <div class="estagio_cozinha">
+
+            <ul id="lista_cozinha">
+
+                <li id="passarBanheiroV" class="seta_esquerda"> <img src="img/icons/seta esquerda.png" width="30px">
+                </li>
+
+                <li class="sala_jogos">Sala de Jogos</li>
+
+                <li id="passarQuarto" class="seta_direita"> <img src="img/icons/seta direita.png " width="30px"> </li>
+
+            </ul>
+
+        </div>
+
+
+        <div class="animacao_pou">
+
+            <img id="animacaoInicial3" src="animaçoes/pouNormal.gif.gif" width="200px">
+            <img id="pouBrincandoLimpo" src="animaçoes/pouBrincando.gif.gif" width="250px">
+            <img id="animacaoComsono3" src="animaçoes/pouSujo.gif.gif" width="250px">
+            <img id = "poutriste3" src="animaçoes/pouLIMPOTRISTE.gif.gif" width="250px">
+            <img id = "pouBrincandotristeANIMA2" src="animaçoes/pouBrincandoTrsite1ANIMA2.gif.gif" width="250px">
+
+
+            <img id = "pouVermelha3" src = "animaçoes/pouBlusaVermelha.gif.gif" width="220px">
+            <img id = "pouAzul3" src = "animaçoes/pouBlusaAzul.gif.gif" width="220px">
+            <img id = "pouLaranja3" src = "animaçoes/pouBlusaLaranja.gif.gif" width="220px">
+            <img id = "pouAmarela3" src = "animaçoes/pouBlusaAmarela.gif.gif" width="220px">
+
+            <img  id = "pou1" src="animaçoes/pouBrincandoRoupaAmarela.gif.gif" width="200px">
+            <img  id = "pou2" src="animaçoes/pouBrincandoRoupaAzul.gif.gif" width="200px">
+            <img  id = "pou3" src="animaçoes/pouBrincandoRoupaLaranja.gif.gif" width="200px">
+            <img  id = "pou4" src="animaçoes/pouBrincandoRoupaVermelha.gif.gif" width="200px">
+
+        </div>
+
+        <div class="icons_end">
+
+            <ul id="lista_end">
+
+                <li id="btBola" class="bola"> <img src="img/icons/bola-de-futebol.png" width="55px"><p>Bola</p></li>
+                <li id="btBola2" class="bola"> <img src="img/icons/bola-de-futebol.png" width="55px"><p>Bola</p></li>
+                <li id="btBola3" class="bola"> <img src="img/icons/bola-de-futebol.png" width="55px"><p>Bola</p></li>
+                <li id="btBola4" class="bola"> <img src="img/icons/bola-de-futebol.png" width="55px"><p>Bola</p></li>
+                <li id="btBola5" class="bola"> <img src="img/icons/bola-de-futebol.png" width="55px"><p>Bola</p></li>
+                <li id="btBolaANIMATION" class="bola"> <img src="img/icons/bola-de-futebol.png" width="55px"><p>Bola</p></li>
+                <li id="btBolaANIMATION2" class="bola"> <img src="img/icons/bola-de-futebol.png" width="55px"><p>Bola</p></li>
+                <li id="btBolaANIMATION2FELIZ" class="bola"> <img src="img/icons/bola-de-futebol.png" width="55px"><p>Bola</p></li>
+
+            </ul>
+
+        </div>
+
+
+    </div>
+
+    <div id="quarto">
+
+        <div class="estagio_cozinha">
+
+            <ul id="lista_cozinha">
+
+                <li id="passarjogosV" class="seta_esquerda"> <img src="img/icons/seta esquerda.png" width="30px"> </li>
+
+                <li class="quarto">Quarto</li>
+
+                <li id="passarLaboratorio" class="seta_direita"> <img src="img/icons/seta direita.png " width="30px"></li>
+
+            </ul>
+
+        </div>
+
+        <div class="animacao_pou">
+
+            <img id="animacaoInicial4" src="animaçoes/pouNormalNoQuarto.gif.gif" width="250px">
+            <img id="pouDormindo" src="animaçoes/pouDormindo.gif.gif" width="250px">
+            <img id="pouIndoDormi" src="animaçoes/pouIndoDormind.gif.gif" width="250px">
+            <img id="animacaoComsono4" src="animaçoes/poucomSonoSujo.gif.gif" width="250px">
+            <img id = "poutriste4" src="animaçoes/pouComSono.gif.gif" width="250px">
+            <img id = "pouDoriminSujoANIMATION" src="animaçoes/pouDormindoSujo.gif.gif" width="250px">
+
+            <img id = "pouVermelha4" src = "animaçoes/pouNormalBlusaVermelha.gif.gif" width="220px">
+            <img id = "pouAzul4" src = "animaçoes/pouNormalBlusaA.gif (2).gif" width="220px">
+            <img id = "pouLaranja4" src = "animaçoes/pouNormalBlusaL.gif.gif" width="220px">
+            <img id = "pouAmarela4" src = "animaçoes/pouNormalBlusaAmarela.gif.gif" width="220px">
+
+
+
+        </div>
+
+        <div class="icons_end">
+
+            <ul id="lista_end">
+
+                <li id="btAbrirArma" class="armario"> <img src="img/icons/roupas.png" width="55px"> <p>Armario</p></li>
+
+                <li id="btAbrirArmaANIMATION" class="armario"> <img src="img/icons/roupas.png" width="55px"> <p>Armario</p></li>
+                <li id="btAbrirArmaANIMATIONOFF" class="armario"> <img src="img/icons/roupas.png" width="55px"> <p>Armario</p></li>
+
+                <li id="btDesligarLuz" class="abajur"> <img src="img/icons/luminaria-abajur.png" width="60px"><p>Abajur</p></li>
+
+                <li id="btDesligarLuzANIMATION" class="abajur"> <img src="img/icons/luminaria-abajur.png" width="60px"><p>Abajur</p></li>
+                <li id="btDesligarLuzANIMATIONOFF" class="abajur"> <img src="img/icons/luminaria-abajur.png" width="60px"><p>Abajur</p></li>
+
+                <li id="AcenderlUZ" class="abajur"> <img src="img/icons/luminaria-abajur (1).png" width="60px"><p>Abajur</p> </li>
+                <li id="AcenderlUZANIMATION" class="abajur"> <img src="img/icons/luminaria-abajur (1).png" width="60px"><p>Abajur</p> </li>
+
+                <li id="btDesligarLuz2" class="abajur"> <img src="img/icons/luminaria-abajur.png" width="60px"><p>Abajur</p></li>
+
+            </ul>
+
+        </div>
+
+
+        <div id="luzApagada">
+
+
+
+        </div>
+
+        <div id="luzApagada2">
+
+
+
+        </div>
+
+        <div id="armario">
+
+            <h2>Roupas</h2>
+
+            <ul id="lista_comida">
+
+                <li id="btVarma" class="pointer"> <img src="img/icons/seta esquerda.png" width="30px"> </li>
+
+            </ul>
+
+            <div class="escolherRoupas">
+
+                <ul>
+
+                    <li id = "BTAmarela"> <img src="img/icons/blusaAmarela.jpg" width="100px"> </li>
+                    <li id = "BTAzul"> <img src="img/icons/blusaAzul.jpg" width="100px"> </li>
+                    <li id = "BTLaranja"> <img src="img/icons/blusaLaranja.jpg" width="100px"> </li>
+                    <li id = "BTVermelha"> <img src="img/icons/blusaVermelha.jpg" width="100px"> </li>
+
+                </ul>
+
+            </div>
+
+            <div class="removerRoupas">
+
+                <h2 class="removerRoupas">X</h2>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <div id="laboratorio">
+
+        <div class="estagio_cozinha">
+
+            <ul id="lista_cozinha">
+
+                <li id="passarQuartoV" class="seta_esquerda"> <img src="img/icons/seta esquerda.png" width="30px"> </li>
+
+                <li class="quarto">Laboratorio</li>
+
+                <li id="passarCozinhaV" class="seta_direita"> <img src="img/icons/seta direita.png " width="30px"> </li>
+                <li id="passarCozinhaVANIMA2" class="seta_direita"> <img src="img/icons/seta direita.png " width="30px"> </li>
+
+            </ul>
+
+        </div>
+
+        <div class="animacao_pou">
+
+            <img id="animacaoInicial5" src="animaçoes/pouNormal.gif.gif" width="200px">
+            <img id="animacaoComsono5" src="animaçoes/pouSujo.gif.gif" width="250px">
+            <img id = "poutriste5" src="animaçoes/pouLIMPOTRISTE.gif.gif" width="250px">
+            <img id = "pouTomandoENERANIMATION" src="animaçoes/pouTomandoEnergANIMA2.GIF.gif" width="250px">
+            <img id = "pouTomandopocaoSaudeANIMA2" src="animaçoes/pouTomandoPorcaosaudeANIMA2.GIF.gif" width="250px">
+
+            <img id = "pouVermelha5" src = "animaçoes/pouBlusaVermelha.gif.gif" width="220px">
+            <img id = "pouAzul5" src = "animaçoes/pouBlusaAzul.gif.gif" width="220px">
+            <img id = "pouLaranja5" src = "animaçoes/pouBlusaLaranja.gif.gif" width="220px">
+            <img id = "pouAmarela5" src = "animaçoes/pouBlusaAmarela.gif.gif" width="220px">
+
+        </div>
+
+        <div class="icons_end">
+
+            <ul id="lista_end">
+
+                <li id="btAbrirPrate" class="armario"> <img src="img/icons/prateleiras.png" width="55px"><p>Prateleira</p></li>
+                <li id="btAbrirPrateANIMATION" class="armario"> <img src="img/icons/prateleiras.png" width="55px"><p>Prateleira</p></li>
+                <li id="btAbrirPrateANIMATION2" class="armario"> <img src="img/icons/prateleiras.png" width="55px"><p>Prateleira</p></li>
+
+                <img class="maiss" id = "AddENERGETICOAnimation" src="img/icons/frasco.png" width="50px" height="50px">
+                <img class="maiss" id = "AddENERGETICOAnimationOFF" src="img/icons/frasco.png" width="50px" height="50px">
+
+                <img class="maiss"  id = "AddSAUDEAnimation" src="img/icons/frasco (1).png" width="50px" height="50px"> 
+                <img class="maiss"  id = "AddSAUDEAnimationOFF" src="img/icons/frasco (1).png" width="50px" height="50px"> 
+
+                <li id="btLoja2" class="abajur"> <img src="img/icons/lojas.png" width="60px"><p>Loja</p> </li>
+                <li id="btLoja2ANIMATION" class="abajur"> <img src="img/icons/lojas.png" width="60px"><p>Loja</p> </li>
+
+            </ul>
+
+        </div>
+
+        <div id="loja_total2">
+
+            <h2 class="lojaa">Loja</h2>
+
+            <img id="btFecharLoja2" class="x" src="img/icons/marca-x.png" width="30px">
+
+            <div class="produtos">
+
+                <ul id="lista_produtos">
+
+                    <li id="bt01AComi" class="san"> <img src="img/icons/sanduiche.png" width="50px">
+                        <p>Comida</p>
+                    </li>
+                    <li id="bt02AReme" class="reme"> <img src="img/icons/remedio.png" width="50px">
+                        <p>Remédios</p>
+                    </li>
+
+                </ul>
+
+            </div>
+
+            <div id="comidas2">
+
+                <h2>Comidas</h2>
+
+                <ul id="lista_comida">
+
+                    <li id="btvoltarLoja3" class="esq"> <img src="img/icons/seta esquerda.png" width="30px"> </li>
+
+                    <li id="btFecharLoja3" class="ex"> <img src="img/icons/marca-x.png" width="30px"> </li>
+
+                </ul>
+
+                <div class="alimentos">
+
+                    <ul>
+
+                        <li> <img src="img/icons/batatas-fritas.png" width="50px">
+                            <p>Batatas-Fritas</p>
+                            <p class="mais">+</p>
+                        </li>
+
+                        <li> <img src="img/icons/bacon.png" width="50px">
+                            <p>Bacon</p>
+                            <p class="mais">+</p>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+            <div id="remedios2">
+
+                <h2>Remédios</h2>
+
+                <ul id="lista_comida">
+
+                    <li id="btvoltarLoja4" class="pointer"> <img src="img/icons/seta esquerda.png" width="30px"> </li>
+
+                    <li id="btFeLoja4" class="pointer"> <img src="img/icons/marca-x.png" width="30px"> </li>
+
+                </ul>
+
+                <div class="porcoes">
+
+                    <ul>
+
+                        <li> <img src="img/icons/frasco.png" width="50px">
+                            <p>Energético</p>
+                            <p id = "btmaisANIMA2" class="mais"> + </p>
+                        </li>
+
+                        <li> <img src="img/icons/frasco (1).png" width="50px">
+                            <p>Porcâo da saúde</p>
+                            <p id = "bt2maisANIMA2" class="mais"> + </p>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div id="prateleira">
+
+            <h2 class="Treme">Remedios</h2>
+
+            <ul id="lista_comida">
+
+                <li id="btVPrate" class="pointer"> <img src="img/icons/seta esquerda.png" width="30px"> </li>
+
+                <li id="btAbrirReme"> <img class="pointer" src="img/icons/mais.png" width="40px"></li>
+
+            </ul>
+        </div>
+
+    </div>
+
+    <script src="scripts/animacao1.js"></script>
+    <script src="scripts/animaçao2.js"></script>
+    <script src="scripts/alterarAmbiente.js"></script>
+    <script src="scripts/subMenus.js"></script>
+</body>
+
+</html>

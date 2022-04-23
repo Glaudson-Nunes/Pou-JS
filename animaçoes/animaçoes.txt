@@ -1,0 +1,22 @@
+1- Animaçâo do pou normal(Ok)
+
+2- Animaçâo do pou sujo(OK) 
+
+3- Animaçâo do pou tomando banho(Ok)
+
+4- AnimaçÂo do pou comendo(ok)
+
+5- Animaçâo do pou sem querer comer(ok)
+
+6- Animaçâo do pou Tomando Energetico(Ok)
+
+7- Animaçâo do pou brincando(Ok)
+
+8- Animaçâo do pou dormindo(Ok)
+
+9- Animaçâo do pou olhando para os lados(Ok)
+
+
+Largura da animaçao: 719
+Altura da animaçâo: 1012
+
